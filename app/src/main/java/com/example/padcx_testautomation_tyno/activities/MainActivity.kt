@@ -105,7 +105,7 @@ class MainActivity : BaseActivity(), MainView {
         tvCartCount.text = burgersInCartCount.toString()
     }
 
-    override fun addBurgerToCart(burger: BurgerVO, burgerImageView: ImageView) {
+  override fun addBurgerToCart(burger: BurgerVO, burgerImageView: ImageView) {
         //Play Animation
         val burgerPosition = getPositionOf(burgerImageView)
         val cartPosition = getPositionOf(ivCart)
@@ -160,7 +160,7 @@ class MainActivity : BaseActivity(), MainView {
         }
     }
 
-    private fun getPositionOf(view: View?): IntArray {
+       private fun getPositionOf(view: View?): IntArray {
         val position = intArrayOf(0, 0)
         view?.getLocationOnScreen(position)
         return position
@@ -190,5 +190,5 @@ class MainActivity : BaseActivity(), MainView {
 
 
         return viewToAnimate
-    }
+ }
 }

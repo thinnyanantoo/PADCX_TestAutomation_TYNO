@@ -16,7 +16,7 @@ class MainPresenterImpl : MainPresenter, BaseAppPresenterImpl<MainView>() {
 
     override fun onTapAddToCart(burger: BurgerVO, burgerImageView : ImageView) {
         mBurgerModel.addItemToCart(burger)
-        mView.addBurgerToCart(burger, burgerImageView)
+      // mView.addBurgerToCart(burger, burgerImageView)
     }
 
     override fun onTapCart() {

@@ -65,7 +65,7 @@
            android:layout_height="match_parent"
            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
            android:orientation="vertical"
-           tools:listitem="@layout/view_item_card"
+           tools:listitem="@layout/view_item_burger"
            tools:itemCount="10" />
    </FrameLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
